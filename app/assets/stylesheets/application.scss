@@ -10,6 +10,7 @@
  * defined in the other CSS/SCSS files in this directory. It is generally better to create a new
  * file per style scope.
  *
+ *
  */
 // Example using 'Superhero' bootswatch
 
@@ -23,10 +24,12 @@
 @import "bootstrap";
 
 // Bootstrap body padding for fixed navbar
-body { padding-top: 60px; }
+// body { padding-top: 60px; }
 
 // And finally bootswatch style itself
 @import "bootswatch/superhero/bootswatch";
+
+@import "devise_bootstrap_views";
 
 // Whatever application styles you have go last
 @import "custom";
